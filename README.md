@@ -19,7 +19,7 @@ class CacheTest() {
     return 1 + 1;
   }
   
-  @memorize(CacheTest.context)
+  @memorizeAsync(CacheTest.context)
   getValueAsync() {
     return Promise.resolve(1 + 1);
   }

@@ -1,0 +1,40 @@
+{
+  "name": "ts-memorize-decorator",
+  "version": "0.0.1",
+  "description": "memorize decorator for function written in typescript",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "rimraf lib/ && node ./node_modules/typescript/bin/tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JiarongGu/ts-memorize-decorator.git"
+  },
+  "keywords": [
+    "memorize",
+    "decorator",
+    "typescript"
+  ],
+  "author": "Jiarong Gu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JiarongGu/ts-memorize-decorator/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/JiarongGu/ts-memorize-decorator#readme",
+  "devDependencies": {
+    "rimraf": "^3.0.0",
+    "ts-lint": "^4.5.1",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {}
+}

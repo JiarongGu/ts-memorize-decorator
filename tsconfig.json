@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "outDir": "./lib",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "ES6",
+    "lib": ["ESNext"],
+    "jsx": "react",
+    "sourceMap": false,
+    "declaration": true,
+    "downlevelIteration": true,
+    "noImplicitAny": false,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "strict": true
+  },
+  "exclude": ["lib", "node_modules", "test", "doc"]
+}
